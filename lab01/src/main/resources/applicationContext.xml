@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="printer" class="com.is.kc.spring.labs.ConsolePrinter"/>
+	<bean id="setterDI" class="com.is.kc.spring.labs.SetterDI">
+		<property name="printer" ref="printer"/>
+	</bean>
+	<bean id="constructorDI" class="com.is.kc.spring.labs.ConstructorDI">
+		<constructor-arg ref="printer"/>
+	</bean>
+	<bean id="autowireDI" class="com.is.kc.spring.labs.AutoWireDI" autowire="byType"/>
+	<bean id="factoryMethodInstantiation" class="com.is.kc.spring.labs.FactoryMethodInstantiation" 
+	       factory-method="createInstance">
+			<constructor-arg index="0" ref="printer"/>
+			<constructor-arg index="1" value="MyTest"/>
+	</bean>
+	<bean id="nameFactory" class="com.is.kc.spring.labs.NameFactory"/>
+	<bean id="names" factory-bean="nameFactory" factory-method="createNameList"/>
+	<bean id="hitCounter" class="com.is.kc.spring.labs.HitCounter" scope="prototype"/>
+	<bean id="hitter1" class="com.is.kc.spring.labs.Hitter">
+		<property name="counter" ref="hitCounter"/>
+	</bean>
+	<bean id="hitter2" class="com.is.kc.spring.labs.Hitter">
+		<property name="counter" ref="hitCounter"/>
+	</bean>
+	<bean id="hitter3" class="com.is.kc.spring.labs.DynamicHitter">
+		<lookup-method name="getHitCounter" bean="hitCounter"/>
+	</bean>
+</beans>
