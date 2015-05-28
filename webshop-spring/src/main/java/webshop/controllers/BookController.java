@@ -1,18 +1,22 @@
 package webshop.controllers;
 
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
+import webshop.dao.BookDao;
+
 @Controller
-@RequestMapping("/books")
 public class BookController {
-    @RequestMapping(method = RequestMethod.GET)
-    public ModelAndView listBooks() {
-        ModelAndView mav = new ModelAndView();
-        //List<Book> listBook();
-        // mav.addObject(attributeValue)
-        return null;
+    @Autowired
+    private BookDao bookDao;
+
+    @RequestMapping(value = "/books", method = RequestMethod.GET)
+    public ModelAndView listBooks(HttpServletRequest request) {
+        return new ModelAndView("books.jsp", "bookDao", bookDao);
     }
 }
