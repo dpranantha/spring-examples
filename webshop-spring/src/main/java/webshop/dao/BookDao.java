@@ -4,6 +4,9 @@ import webshop.domain.Book;
 
 import java.util.List;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public interface BookDao {
     List<Book> listBooks();
     Book saveBook(Book book);
