@@ -11,13 +11,14 @@ import org.springframework.web.servlet.ModelAndView;
 import webshop.dao.BookDao;
 
 @Controller
+@RequestMapping("books")
 public class BookController {
     @Autowired
     private BookDao bookDao;
 
-    @RequestMapping(value = "/books", method = RequestMethod.GET)
-    public ModelAndView listBooks(HttpServletRequest request) {
-        System.out.println("Here!");
+    //@RequestMapping(value = "/books", method = RequestMethod.GET)
+    public ModelAndView listBooks() {
+        System.out.println("NONONO");
         return new ModelAndView("books.jsp", "bookDao", bookDao);
     }
 }
