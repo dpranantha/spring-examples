@@ -17,6 +17,7 @@ public class BookController {
 
     @RequestMapping(value = "/books", method = RequestMethod.GET)
     public ModelAndView listBooks(HttpServletRequest request) {
+        System.out.println("Here!");
         return new ModelAndView("books.jsp", "bookDao", bookDao);
     }
 }
