@@ -7,8 +7,13 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
+import org.springframework.stereotype.Component;
+
+@Component
 @Entity
+@Table(name="Book")
 public class Book implements Serializable{
 
     private static final long serialVersionUID = 1213213232L;

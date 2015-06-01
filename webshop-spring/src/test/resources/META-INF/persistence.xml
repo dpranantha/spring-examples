@@ -6,13 +6,32 @@
 
     <persistence-unit name="default" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-		<class>webshop.domain.Book</class>
+        <mapping-file>Book.xml</mapping-file>
+        <!-- class>webshop.domain.Book</class-->
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/springcourse"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/springcourse"/>
             <property name="javax.persistence.jdbc.user" value="root"/>
             <property name="javax.persistence.jdbc.password" value="password"/>
-        
+
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.dialect"
+                      value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="validate"/>
+        </properties>
+    </persistence-unit>
+
+    <persistence-unit name="standalone" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <mapping-file>Book.xml</mapping-file>
+        <!-- class>webshop.domain.Book</class-->
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/springcourse"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="password"/>
+
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.dialect"
@@ -20,6 +39,5 @@
             <property name="hibernate.hbm2ddl.auto" value="create"/>
         </properties>
     </persistence-unit>
-
 
 </persistence>

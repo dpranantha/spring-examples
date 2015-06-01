@@ -1,6 +1,5 @@
 package webshop.controllers;
 
-import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -8,17 +7,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import webshop.dao.BookDao;
+import webshop.dao.BookDaoImpl;
 
 @Controller
 @RequestMapping("books")
 public class BookController {
     @Autowired
-    private BookDao bookDao;
+    private BookDaoImpl bookDao;
 
-    //@RequestMapping(value = "/books", method = RequestMethod.GET)
+    @RequestMapping(method = RequestMethod.GET)
     public ModelAndView listBooks() {
-        System.out.println("NONONO");
-        return new ModelAndView("books.jsp", "bookDao", bookDao);
+        return new ModelAndView("books/index", "books", bookDao.listBooks());
     }
 }
