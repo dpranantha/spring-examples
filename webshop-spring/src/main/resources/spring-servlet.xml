@@ -23,9 +23,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     <context:component-scan base-package="webshop.dao" />
     <context:component-scan base-package="webshop.domain" />
   
-    <mvc:resources mapping="/resources/**" location="/resources/theme/" />
-  	<mvc:annotation-driven/>
-	<mvc:interceptors>
+     <mvc:interceptors>
 	     <bean class="org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor">
 	         <property name="entityManagerFactory" ref="emf"/>
 	     </bean>
@@ -38,5 +36,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		<property name="prefix" value="/WEB-INF/jsp/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+	
+	<mvc:resources mapping="/resources/**" location="/resources/theme/" />
+	<mvc:annotation-driven/>
+	
 </beans>
 

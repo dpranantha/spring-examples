@@ -6,16 +6,16 @@
 <html>
    <head>
    		<title>Books</title>
-   		<script src="<c:url value="/resources/js/jquery-latest.js" />"></script>
-   		<script src="<c:url value="/resources/js/jquery.tablesorter.js" />"></script>
+   		<link href="<c:url value="/resources/theme/css/style.css" />" rel="stylesheet">
+		<script src="<c:url value="/resources/theme/js/jquery-latest.js" />"></script>
+		<script src="<c:url value="/resources/theme/js/jquery.tablesorter.js" />"></script>
    </head>
    <body>
-      <table class="tablesorter">
+      <table id="myTable" class="tablesorter">
          <tr>
             <th>Id</th>
             <th>Title</th>
          </tr>
-
          <c:forEach items="${books}"var="book">
            <tr>
            	  <td>${book.id}</td>
@@ -23,5 +23,13 @@
            </tr>
          </c:forEach>
       </table>
+		<script type="text/javascript">
+   			$(document).ready(function() 
+   			    { 
+   			        $("#myTable").tablesorter(); 
+   			    } 
+   			); 
+   			    
+   		</script>
    </body>
 </html>
