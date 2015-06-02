@@ -45,6 +45,7 @@ public class Runner {
 
         MovieLister movieLister = applicationContext.getBean(MovieLister.class);
         movieLister.listMovies();
+        movieLister.allListMovies();
     }
 
 }
