@@ -32,7 +32,7 @@ public class StandaloneTest {
 
         em.getTransaction().begin();
 
-        em.persist(employee);
+        em.merge(employee);
 
         em.getTransaction().commit();
 
