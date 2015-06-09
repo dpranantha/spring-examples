@@ -18699,3 +18699,357 @@ Caused by: java.net.ConnectException: Connection refused
 1104 [main] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2c444798: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,bookController,bookDaoImpl,book,org.springframework.web.servlet.handler.MappedInterceptor#0,jspViewResolver,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#1]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@f381794
 30851 [Thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2c444798: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,bookController,bookDaoImpl,book,org.springframework.web.servlet.handler.MappedInterceptor#0,jspViewResolver,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#1]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@f381794
 30853 [Thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f381794: defining beans [bookDaoImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,jpaDialect,emf,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+0    [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [dao-context.xml]
+106  [main] INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+148  [main] INFO  org.springframework.context.support.GenericApplicationContext  - Refreshing org.springframework.context.support.GenericApplicationContext@716925b0: startup date [Tue Jun 09 11:04:08 CEST 2015]; root of context hierarchy
+238  [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer  - Loading properties file from class path resource [jdbc.properties]
+243  [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+269  [main] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4fa4ded3: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,jpaDialect,emf,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+441  [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+445  [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+446  [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+448  [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+449  [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+488  [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+500  [main] INFO  org.hibernate.ejb.Ejb3Configuration  - Processing PersistenceUnitInfo [
+	name: default
+	...]
+578  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: webshop.domain.Book
+602  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity webshop.domain.Book on table Book
+631  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+641  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+645  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+685  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+686  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+689  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+691  [main] INFO  org.hibernate.connection.ConnectionProviderFactory  - Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+693  [main] INFO  org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider  - Using provided datasource
+881  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+887  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+887  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+887  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+887  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+888  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+888  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+888  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+888  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+888  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+888  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+889  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+889  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+889  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+889  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+889  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+889  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+889  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+889  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+890  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+890  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+890  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+890  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+890  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+890  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+891  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+891  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+893  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+894  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+894  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+894  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+894  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+894  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+904  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+907  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@42bb0406
+907  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@4054824
+908  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@76c3358b
+908  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@9f07597
+908  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@9f07597
+908  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@9b8119a
+908  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@9b8119a
+908  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@138b9a72
+908  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@3248bc64
+1000 [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+1003 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaValidator  - Running schema validator
+1003 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaValidator  - fetching database metadata
+1004 [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+1014 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - table found: springcourse.Book
+1015 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - columns: [id, title]
+1091 [main] ERROR org.springframework.test.context.TestContextManager  - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1fb88122] to prepare test instance [webshop.dao.BookDaoImplTest@a25ef73]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webshop.dao.BookDaoImplTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private webshop.dao.BookDao webshop.dao.BookDaoImplTest.bookDao; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [webshop.dao.BookDao] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1074)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:374)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:301)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:303)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private webshop.dao.BookDao webshop.dao.BookDaoImplTest.bookDao; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [webshop.dao.BookDao] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:502)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:282)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [webshop.dao.BookDao] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:920)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:789)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:703)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:474)
+	... 28 more
+1096 [Thread-3] INFO  org.springframework.context.support.GenericApplicationContext  - Closing org.springframework.context.support.GenericApplicationContext@716925b0: startup date [Tue Jun 09 11:04:08 CEST 2015]; root of context hierarchy
+1096 [Thread-3] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4fa4ded3: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,jpaDialect,emf,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+1101 [Thread-3] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+0    [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [dao-context.xml]
+112  [main] INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+148  [main] INFO  org.springframework.context.support.GenericApplicationContext  - Refreshing org.springframework.context.support.GenericApplicationContext@148238f4: startup date [Tue Jun 09 11:04:22 CEST 2015]; root of context hierarchy
+227  [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer  - Loading properties file from class path resource [jdbc.properties]
+230  [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+252  [main] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@538d7ace: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,jpaDialect,emf,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+406  [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+409  [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+410  [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+412  [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+414  [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+450  [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+460  [main] INFO  org.hibernate.ejb.Ejb3Configuration  - Processing PersistenceUnitInfo [
+	name: default
+	...]
+534  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: webshop.domain.Book
+558  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity webshop.domain.Book on table Book
+590  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+601  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+607  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+640  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+641  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+644  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+647  [main] INFO  org.hibernate.connection.ConnectionProviderFactory  - Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+649  [main] INFO  org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider  - Using provided datasource
+836  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+842  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+842  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+842  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+843  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+844  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+844  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+844  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+844  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+844  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+844  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+844  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+844  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+845  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+845  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+845  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+845  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+845  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+845  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+846  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+846  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+846  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+846  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+846  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+846  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+847  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+847  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+849  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+849  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+849  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+849  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+849  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+849  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+859  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+864  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@28294f62
+864  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@28294f62
+864  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@301abf87
+864  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@2c1450bd
+864  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@69c0bee6
+864  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6d352447
+864  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@3be0e954
+865  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@3be0e954
+865  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@2af6a882
+949  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+951  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaValidator  - Running schema validator
+951  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaValidator  - fetching database metadata
+951  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+962  [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - table found: springcourse.Book
+962  [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - columns: [id, title]
+1034 [main] ERROR org.springframework.test.context.TestContextManager  - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3429cf1] to prepare test instance [webshop.dao.BookDaoImplTest@a4d93e3]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webshop.dao.BookDaoImplTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private webshop.dao.BookDao webshop.dao.BookDaoImplTest.bookDao; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [webshop.dao.BookDao] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:285)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1074)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:374)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:110)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:75)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:321)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:220)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:301)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:303)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:240)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private webshop.dao.BookDao webshop.dao.BookDaoImplTest.bookDao; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [webshop.dao.BookDao] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:502)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:84)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:282)
+	... 26 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [webshop.dao.BookDao] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:920)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:789)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:703)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:474)
+	... 28 more
+1039 [Thread-3] INFO  org.springframework.context.support.GenericApplicationContext  - Closing org.springframework.context.support.GenericApplicationContext@148238f4: startup date [Tue Jun 09 11:04:22 CEST 2015]; root of context hierarchy
+1039 [Thread-3] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@538d7ace: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,jpaDialect,emf,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+1043 [Thread-3] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+0    [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [dao-context.xml]
+88   [main] INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+90   [main] INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+201  [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer  - Loading properties file from class path resource [jdbc.properties]
+205  [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+227  [main] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@46e13e7b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,jpaDialect,emf,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+953  [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [spring-servlet.xml]
+978  [main] INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+978  [main] INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+987  [main] INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+987  [main] INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+992  [main] INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+992  [main] INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+1041 [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+1042 [main] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2608b60a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,bookController,bookDaoImpl,book,org.springframework.web.servlet.handler.MappedInterceptor#0,jspViewResolver,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#1]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@46e13e7b
+91232 [Thread-3] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2608b60a: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,bookController,bookDaoImpl,book,org.springframework.web.servlet.handler.MappedInterceptor#0,jspViewResolver,org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter,org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0,org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0,org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping#0,org.springframework.format.support.FormattingConversionServiceFactoryBean#0,org.springframework.validation.beanvalidation.LocalValidatorFactoryBean#0,org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter#0,org.springframework.web.servlet.handler.MappedInterceptor#1]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@46e13e7b
+91233 [Thread-3] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@46e13e7b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,jpaDialect,emf,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+0    [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [dao-context.xml]
+108  [main] INFO  org.springframework.context.annotation.ClassPathBeanDefinitionScanner  - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+166  [main] INFO  org.springframework.context.support.GenericApplicationContext  - Refreshing org.springframework.context.support.GenericApplicationContext@716925b0: startup date [Tue Jun 09 11:08:01 CEST 2015]; root of context hierarchy
+244  [main] INFO  org.springframework.beans.factory.config.PropertyPlaceholderConfigurer  - Loading properties file from class path resource [jdbc.properties]
+248  [main] INFO  org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor  - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+270  [main] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@59c208b0: defining beans [bookDaoImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,jpaDialect,emf,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+428  [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+432  [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+433  [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+435  [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+437  [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+472  [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+484  [main] INFO  org.hibernate.ejb.Ejb3Configuration  - Processing PersistenceUnitInfo [
+	name: default
+	...]
+556  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: webshop.domain.Book
+579  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity webshop.domain.Book on table Book
+610  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+620  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+624  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+661  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+663  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+665  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+668  [main] INFO  org.hibernate.connection.ConnectionProviderFactory  - Initializing connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+670  [main] INFO  org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider  - Using provided datasource
+858  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+867  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+867  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+867  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+868  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+869  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+869  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+869  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+869  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+869  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+869  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+869  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+869  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+870  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+870  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+870  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+870  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+870  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+870  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+871  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+871  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+871  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+871  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+871  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+871  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+872  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+872  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+876  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+876  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+876  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+876  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+876  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+876  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+886  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+890  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@26796e1c
+890  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@6e2c03ff
+890  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@bba92db
+890  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@5ff6de1
+890  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@4486d1da
+891  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@4486d1da
+891  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@6f3b625b
+891  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@23b67d6a
+891  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@23b67d6a
+974  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+976  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaValidator  - Running schema validator
+976  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaValidator  - fetching database metadata
+976  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+987  [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - table found: springcourse.Book
+987  [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - columns: [id, title]
+1123 [main] INFO  org.springframework.test.context.transaction.TransactionalTestExecutionListener  - Began transaction (1): transaction manager [org.springframework.orm.jpa.JpaTransactionManager@44285d14]; rollback [true]
+1243 [main] INFO  org.springframework.test.context.transaction.TransactionalTestExecutionListener  - Rolled back transaction after test execution for test context [[TestContext@29e965e9 testClass = BookDaoImplTest, locations = array<String>['classpath:dao-context.xml'], testInstance = webshop.dao.BookDaoImplTest@1a21b97e, testMethod = testListBook@BookDaoImplTest, testException = [null]]]
+1248 [Thread-3] INFO  org.springframework.context.support.GenericApplicationContext  - Closing org.springframework.context.support.GenericApplicationContext@716925b0: startup date [Tue Jun 09 11:08:01 CEST 2015]; root of context hierarchy
+1248 [Thread-3] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@59c208b0: defining beans [bookDaoImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,jpaDialect,emf,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,dataSource,org.springframework.beans.factory.config.PropertyPlaceholderConfigurer#0]; root of factory hierarchy
+1248 [Thread-3] INFO  org.hibernate.impl.SessionFactoryImpl  - closing

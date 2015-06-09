@@ -1,0 +1,1021 @@
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+9    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+11   [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+13   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+17   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+80   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+198  [main] INFO  org.hibernate.cfg.Configuration  - Reading mappings from resource : Book.xml
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+7    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+10   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+12   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+50   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+189  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+221  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+258  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+279  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+284  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+330  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+332  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+334  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+339  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+340  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+340  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+344  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+344  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+564  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+574  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+574  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+574  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+575  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+576  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+576  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+576  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+577  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+577  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+577  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+577  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+578  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+578  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+578  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+579  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+579  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+579  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+579  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+582  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+582  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+582  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+582  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+582  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+582  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+583  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+583  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+586  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+587  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+587  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+587  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+587  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+587  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+600  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+606  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1451ef4e
+606  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@f35f44e
+606  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@f35f44e
+606  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1f3a34af
+606  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@2658dd2d
+606  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1420c906
+606  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1420c906
+606  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@746db33c
+606  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@4e1263db
+748  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+752  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+754  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+757  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+757  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+776  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+858  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+858  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+7    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+10   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+12   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+52   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+179  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+204  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+235  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+248  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+252  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+290  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+292  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+295  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+298  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+298  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+298  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+301  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+301  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+478  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+484  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+485  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+485  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+488  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+491  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+491  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+491  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+492  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+492  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+492  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+501  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@4ee14d81
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@29a7789c
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@29a7789c
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@31df5f21
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@3fde891b
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@2afb6c5f
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@2afb6c5f
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@6087e704
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@7a4fe91e
+599  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+602  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+604  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+607  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+607  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+624  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+687  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+687  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+7    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+10   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+13   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+54   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+185  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+208  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+237  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+251  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+255  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+289  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+292  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+295  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+300  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+300  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+300  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+303  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+304  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+475  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+481  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+482  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+482  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+482  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+482  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+482  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+482  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+485  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+498  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+502  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@2afb6c5f
+502  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@6087e704
+502  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@7a4fe91e
+502  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@1451ef4e
+503  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@1451ef4e
+503  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@f35f44e
+503  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1f3a34af
+503  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1f3a34af
+503  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@2658dd2d
+597  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+599  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+601  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+604  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+604  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+622  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+685  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+685  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+6    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+10   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+12   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+53   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+178  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+203  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+235  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+248  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+252  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+285  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+286  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+289  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+293  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+293  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+293  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+296  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+296  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+471  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+477  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+477  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+477  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+477  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+478  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+478  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+478  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+478  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+478  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+479  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+479  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+479  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+479  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+479  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+479  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+479  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+479  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+479  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+480  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+494  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+497  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@746db33c
+497  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@4e1263db
+498  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1959e6e8
+498  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@5d469658
+498  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@5d469658
+498  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@45389b3f
+498  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@45389b3f
+498  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@758689a
+498  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@3d3b5a3a
+594  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+597  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+599  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+602  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+602  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+619  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+684  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+684  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+7    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+10   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+12   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+52   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+179  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+205  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+235  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+249  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+253  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+289  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+291  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+294  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+297  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+297  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+297  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+301  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+301  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+473  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+482  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+483  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+484  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+487  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+491  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+491  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+491  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+500  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@3a0b53e
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@2bdafb4e
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@2bdafb4e
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@35a8d460
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@5f0f0625
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@535c97e4
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@63f8247d
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@3823bdd1
+505  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@3823bdd1
+603  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+606  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+609  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+612  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+612  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+631  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+694  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+694  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+7    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+10   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+12   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+53   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+182  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+211  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+241  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+254  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+258  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+292  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+293  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+295  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+299  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+300  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+300  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+303  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+303  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+484  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+491  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+491  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+491  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+491  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+492  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+492  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+492  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+492  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+492  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+494  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+495  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+495  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+495  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+495  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+495  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+497  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+498  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+498  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+498  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+498  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+498  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+508  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+511  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@6087e704
+512  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@7a4fe91e
+512  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@7a4fe91e
+512  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@1451ef4e
+512  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@f35f44e
+512  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1f3a34af
+512  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@2658dd2d
+512  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@1420c906
+512  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@1420c906
+614  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+617  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+619  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+622  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+622  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+641  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+704  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+704  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+7    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+10   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+12   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+54   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+187  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+216  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+249  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+262  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+266  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+307  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+309  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+312  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+315  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+315  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+315  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+318  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+319  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+499  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+506  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+506  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+506  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+506  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+508  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+508  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+508  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+508  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+508  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+509  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+509  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+509  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+511  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+512  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+512  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+512  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+512  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+512  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+512  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+512  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+515  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+515  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+515  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+515  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+515  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+515  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+528  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+533  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@45389b3f
+533  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@45389b3f
+533  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@758689a
+533  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@3d3b5a3a
+533  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@3a0b53e
+533  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@2bdafb4e
+534  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@35a8d460
+534  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@5f0f0625
+534  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@5f0f0625
+642  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+645  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+647  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+651  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+651  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+668  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+730  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+730  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+9    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+11   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+13   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+55   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+183  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+207  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+240  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+253  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+257  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+293  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+295  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+297  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+301  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+301  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+301  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+305  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+305  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+472  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+478  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+478  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+478  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+479  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+480  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+481  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+482  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+497  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+501  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@31df5f21
+501  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@31df5f21
+501  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@3fde891b
+501  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@2afb6c5f
+501  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@2afb6c5f
+501  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@6087e704
+501  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@7a4fe91e
+501  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@1451ef4e
+501  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@f35f44e
+599  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+602  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+604  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+607  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+608  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+625  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+685  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+686  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+7    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+10   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+12   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+54   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+187  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+212  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+244  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+258  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+262  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+296  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+297  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+300  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+303  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+303  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+303  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+306  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+307  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+496  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+503  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+503  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+503  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+504  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+504  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+504  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+504  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+504  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+504  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+505  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+505  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+505  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+505  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+505  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+505  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+505  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+505  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+505  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+507  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+507  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+507  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+507  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+507  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+507  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+507  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+507  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+510  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+521  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+526  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@746db33c
+526  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@4e1263db
+526  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1959e6e8
+526  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@5d469658
+526  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@5d469658
+526  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@45389b3f
+526  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@45389b3f
+526  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@758689a
+526  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@3d3b5a3a
+630  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+634  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+636  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+638  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+639  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+658  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+718  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+718  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+7    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+10   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+13   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+55   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+193  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+215  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+245  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+260  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+264  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+297  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+300  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+304  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+309  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+309  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+309  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+314  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+314  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+486  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+492  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+492  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+492  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+492  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+493  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+495  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+496  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+496  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+496  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+496  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+496  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+496  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+496  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+499  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+499  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+499  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+499  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+499  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+499  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+510  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+513  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@1451ef4e
+513  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@f35f44e
+513  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@f35f44e
+514  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1f3a34af
+514  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@2658dd2d
+514  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1420c906
+514  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1420c906
+514  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@746db33c
+514  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@4e1263db
+605  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+607  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+610  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+613  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+613  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+629  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+692  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+692  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+7    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+10   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+12   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+55   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+185  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+208  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+238  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+252  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+256  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+290  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+293  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+296  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+301  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+301  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+301  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+304  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+304  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+477  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+483  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+483  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+484  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+484  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+484  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+485  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+486  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+500  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+503  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@4e1263db
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@4e1263db
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@1959e6e8
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@5d469658
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@45389b3f
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@758689a
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@758689a
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@3d3b5a3a
+504  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@3a0b53e
+596  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+598  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+600  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+603  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+604  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+620  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+682  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+682  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+7    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+8    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+10   [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+12   [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+55   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+184  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+209  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+239  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+253  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+257  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+295  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+296  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+299  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+303  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+303  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+303  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+306  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+306  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+480  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+486  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+486  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+487  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+487  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+488  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+488  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+489  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+490  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+490  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+491  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+491  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+493  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+494  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+504  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+508  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@2afb6c5f
+508  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@6087e704
+508  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@7a4fe91e
+508  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@1451ef4e
+508  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@1451ef4e
+508  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@f35f44e
+508  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1f3a34af
+508  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1f3a34af
+508  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@2658dd2d
+612  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+614  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+616  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+619  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+620  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+636  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+697  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+697  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
+0    [main] INFO  org.hibernate.annotations.common.Version  - Hibernate Commons Annotations 3.2.0.Final
+4    [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.6.3.Final
+5    [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+7    [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+9    [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+50   [main] INFO  org.hibernate.ejb.Version  - Hibernate EntityManager 3.6.3.Final
+182  [main] INFO  org.hibernate.cfg.AnnotationBinder  - Binding entity from annotated class: com.jdbc.labs.Employee
+206  [main] INFO  org.hibernate.cfg.annotations.EntityBinder  - Bind entity com.jdbc.labs.Employee on table Employee
+238  [main] INFO  org.hibernate.cfg.Configuration  - Hibernate Validator not found: ignoring
+249  [main] INFO  org.hibernate.validator.util.Version  - Hibernate Validator 4.1.0.Final
+252  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+287  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+289  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+292  [main] INFO  org.hibernate.cfg.search.HibernateSearchEventListenerRegister  - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+296  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Using Hibernate built-in connection pool (not for production use!)
+296  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - Hibernate connection pool size: 20
+296  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - autocommit mode: true
+299  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/springcourse
+299  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+467  [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+473  [main] INFO  org.hibernate.engine.jdbc.JdbcSupportLoader  - Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+473  [main] INFO  org.hibernate.cfg.SettingsFactory  - Database ->
+       name : MySQL
+    version : 5.6.24
+      major : 5
+      minor : 6
+473  [main] INFO  org.hibernate.cfg.SettingsFactory  - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.6 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+473  [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.hibernate.transaction.JDBCTransactionFactory
+474  [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+474  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+474  [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+474  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+474  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+475  [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+475  [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+475  [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+475  [main] INFO  org.hibernate.cfg.SettingsFactory  - Maximum outer join fetch depth: 2
+475  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+475  [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+475  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+475  [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+475  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+476  [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+476  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+476  [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: enabled
+476  [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+477  [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+477  [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+477  [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+477  [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+480  [main] INFO  org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+490  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+494  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@1d34263a
+494  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [clob] overrides previous : org.hibernate.type.ClobType@4ab9b8d0
+494  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@4ab9b8d0
+494  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@67148603
+494  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@746a63d3
+494  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@74bfed5a
+494  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@6477eb97
+494  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [blob] overrides previous : org.hibernate.type.BlobType@7d0c3a08
+494  [main] INFO  org.hibernate.type.BasicTypeRegistry  - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@7d0c3a08
+585  [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
+588  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+590  [main] INFO  org.hibernate.validator.engine.resolver.DefaultTraversableResolver  - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+593  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - Running hbm2ddl schema export
+593  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - exporting generated schema to database
+610  [main] INFO  org.hibernate.tool.hbm2ddl.SchemaExport  - schema export complete
+670  [main] INFO  org.hibernate.impl.SessionFactoryImpl  - closing
+670  [main] INFO  org.hibernate.connection.DriverManagerConnectionProvider  - cleaning up connection pool: jdbc:mysql://localhost:3306/springcourse
