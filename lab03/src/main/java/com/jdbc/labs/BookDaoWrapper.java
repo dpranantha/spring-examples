@@ -2,19 +2,26 @@ package com.jdbc.labs;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
+import javax.inject.Inject;
 import javax.sql.DataSource;
 
-import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.simple.SimpleJdbcTemplate;
+import org.springframework.stereotype.Component;
+import org.springframework.jdbc.core.RowMapper;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
-@Transactional
 @Component
-public class BookDaoImpl implements BookDao {
+//@Transactional
+//@Transactional(propagation=Propagation.SUPPORTS)
+@Transactional(propagation=Propagation.REQUIRES_NEW)
+public class BookDaoWrapper {
+    @Inject
+    BookDao bookDao;
 
     private SimpleJdbcTemplate simpleJdbcTemplate;
 
@@ -23,15 +30,24 @@ public class BookDaoImpl implements BookDao {
         this.simpleJdbcTemplate = new SimpleJdbcTemplate(dataSource);
     }
 
-    @Override
+    @Transactional
     public List<Book> listBooks() {
+//        Book book1 = new Book();
+//        book1.setId(5L);
+//        book1.setTitle("fake hitchhiker");
+//        Book book2 = new Book();
+//        book2.setId(6L);
+//        book2.setTitle("fake harry potter");
+//        List<Book> lb = new ArrayList<Book>();
+//        lb.add(book1);
+//        lb.add(book2);
         String sql = "select id, title from Book";
         List<Book> lb = simpleJdbcTemplate.query(sql, new RowMapper<Book>() {
 
             @Override
             public Book mapRow(ResultSet rs, int rowNum) throws SQLException {
                 Book book = new Book();
-                book.setId(rs.getLong(1));
+               book.setId(rs.getLong(1));
                 book.setTitle(rs.getString(2));
                 return book;
             }
@@ -39,35 +55,4 @@ public class BookDaoImpl implements BookDao {
         });
         return lb;
     }
-
-    @Override
-    public Book saveBook(Book book) {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    @Override
-    public Book findBookById(long id) {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    @Override
-    public List<Book> findBooksByTitle(String title) {
-        // TODO Auto-generated method stub
-        return null;
-    }
-
-    @Override
-    public void removeBook(Book book) {
-        // TODO Auto-generated method stub
-
-    }
-
-    @Override
-    public void removeBook(long id) {
-        // TODO Auto-generated method stub
-
-    }
-
 }
