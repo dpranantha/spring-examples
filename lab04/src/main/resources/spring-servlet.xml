@@ -39,5 +39,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   <bean id="jsonMapper" class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
   	<property name="supportedMediaTypes" value="application/json"/>
   </bean>
+  
+  <bean id="productRepository" class="lab04.InMemProductRepository" factory-method="instance"/>
 </beans>
 

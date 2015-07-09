@@ -2,12 +2,15 @@ package lab04;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+import org.codehaus.jackson.annotate.JsonProperty;
+
 @XmlRootElement
 public class Product {
     //@XmlElement //uncomment if getter-setter are removed
-    //@JsonProperty
+    @JsonProperty
     private String name;
     //@XmlElement
+    @JsonProperty
     private long price;
 
     public Product() {
