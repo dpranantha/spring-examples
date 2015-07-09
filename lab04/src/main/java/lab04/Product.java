@@ -4,8 +4,10 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class Product {
-
+    //@XmlElement //uncomment if getter-setter are removed
+    //@JsonProperty
     private String name;
+    //@XmlElement
     private long price;
 
     public Product() {
