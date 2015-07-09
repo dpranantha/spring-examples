@@ -1,4 +1,5 @@
-package lab04;
+package lab04.model;
+
 
 public class Identity extends Product {
     private long id;

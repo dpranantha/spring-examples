@@ -1,4 +1,9 @@
-package lab04;
+package lab04.controller;
+
+import lab04.model.Identity;
+import lab04.model.Product;
+import lab04.model.ProductListInfo;
+import lab04.repository.ProductRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,23 +29,28 @@ public class ProductController {
         return new Identity(repository.saveProduct(product));
     }
 
+    @RequestMapping(method=RequestMethod.GET)
+    public @ResponseBody ProductListInfo getAllProduct() {
+        return ProductListInfo.from("product", repository.getAllProduct());
+    }
+
     @RequestMapping(method=RequestMethod.GET, value="/inxml", headers="Accept=application/xml")
     public @ResponseBody Product getProductXML() {
-        Product p = new Product("The Martian",4L);
+        Product p = new Product("The Martian XML",4L);
         return p;
     }
 
     @RequestMapping(method=RequestMethod.GET, value="/injson", headers="Accept=application/json")
     public @ResponseBody Product getProductJSON() {
         //implement a transformer
-        Product p = new Product("The Flying Martian",10L);
+        Product p = new Product("The Flying Martian JSON",10L);
         return p;
     }
 
     @RequestMapping(method=RequestMethod.GET, value="/inhtml", headers="Accept=text/html")
     public @ResponseBody Product getProductHTML() {
         //by default becomes XML
-        Product p = new Product("The Flying Martian",10L);
+        Product p = new Product("The Flying Martian HTML",10L);
         return p;
     }
 }

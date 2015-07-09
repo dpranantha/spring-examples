@@ -1,8 +1,10 @@
-package lab04;
+package lab04.repository;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+
+import lab04.model.Product;
 
 public class InMemProductRepository implements ProductRepository {
     public static ProductRepository instance() {

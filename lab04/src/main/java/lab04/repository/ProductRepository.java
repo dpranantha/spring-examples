@@ -1,7 +1,9 @@
-package lab04;
+package lab04.repository;
 
 import java.util.Collection;
 import java.util.Map;
+
+import lab04.model.Product;
 
 public interface ProductRepository {
     public Product getProduct(long id);

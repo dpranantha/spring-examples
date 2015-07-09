@@ -10,6 +10,8 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
+import lab04.model.Product;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

@@ -31,7 +31,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   <bean id="JaxbMarshaller" class="org.springframework.oxm.jaxb.Jaxb2Marshaller">
   	<property name="classesToBeBound">
   		<list>
-  			<value>lab04.Product</value>
+  			<value>lab04.model.Product</value>
   		</list>
   	</property>
   </bean>
@@ -40,6 +40,6 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   	<property name="supportedMediaTypes" value="application/json"/>
   </bean>
   
-  <bean id="productRepository" class="lab04.InMemProductRepository" factory-method="instance"/>
+  <bean id="productRepository" class="lab04.repository.InMemProductRepository" factory-method="instance"/>
 </beans>
 
