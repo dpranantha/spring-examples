@@ -37,6 +37,7 @@ public class MarshallingAProduct {
 
     @After
     public void tearDown() throws Exception {
+        output.flush();
     }
 
     @Test
