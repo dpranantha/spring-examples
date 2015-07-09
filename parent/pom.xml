@@ -340,6 +340,13 @@
 	          <artifactId>fugue</artifactId>
 	          <version>2.2.0</version>
 	      </dependency>
+	      
+	     <dependency>
+		    <groupId>org.hamcrest</groupId>
+		    <artifactId>hamcrest-library</artifactId>
+		    <version>1.2.1</version>
+		    <scope>test</scope>
+		</dependency>
       </dependencies>
 
       <repositories>
