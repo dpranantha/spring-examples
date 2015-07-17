@@ -9,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -24,6 +25,7 @@ public class Book implements Serializable{
     private Long id;
 
     @Column(name = "title")
+    @NotEmpty
     private String title;
 
     public Book() {

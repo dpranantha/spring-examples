@@ -2,10 +2,11 @@ package webshop.controllers;
 
 
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -37,8 +38,26 @@ public class BookController {
     }
 
     @RequestMapping(value = "edit", method = RequestMethod.POST)
-    public ModelAndView saveBook(@ModelAttribute Book book) {
-        System.out.println(book.getTitle() + " "+ book.getId());
+    public ModelAndView updateBook(@ModelAttribute Book book) {
         return new ModelAndView(bookDao.updateBook(book.getId(), book.getTitle()));
+    }
+
+    @RequestMapping(value ="add", method = RequestMethod.GET)
+    public ModelAndView add(ModelAndView model) {
+        model.addObject(new Book());
+        model.setViewName("books/add");
+        return model;
+    }
+
+    @RequestMapping(value = "add", method = RequestMethod.POST)
+    public ModelAndView saveBook(@Valid Book book, BindingResult result) {
+        String path;
+        if (result.hasErrors()) {
+            path = "books/add";
+        } else {
+            bookDao.saveBook(book);
+            path = "redirect:/spring/books";
+        }
+        return new ModelAndView(path);
     }
 }

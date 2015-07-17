@@ -24,6 +24,7 @@
            </tr>
          </c:forEach>
       </table>
+      <td><a href="books/add">Add</a></td>
 		<script type="text/javascript">
    			$(document).ready(function() 
    			    { 
