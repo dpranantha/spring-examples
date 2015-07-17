@@ -26,6 +26,24 @@ public class Book implements Serializable{
     @Column(name = "title")
     private String title;
 
+    public Book() {
+        /* Needed for JPA*/
+        super();
+    }
+
+    public Book(String title) {
+        /* Needed for Insert JDBCTemplate*/
+        super();
+        this.title = title;
+    }
+
+    public Book(Long id, String title) {
+        /* Needed for List Book*/
+        super();
+        this.id = id;
+        this.title = title;
+    }
+
     public Long getId() {
         return id;
     }

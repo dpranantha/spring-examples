@@ -6,6 +6,7 @@ import java.util.List;
 
 public interface BookDao {
     List<Book> listBooks();
+    String updateBook(long id, String title);
     Book saveBook(Book book);
     Book findBookById(long id);
     List<Book> findBooksByTitle(String title);

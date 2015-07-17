@@ -11,7 +11,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import webshop.domain.Book;
 
-@Component
 public class BookDaoImpl implements BookDao {
     @PersistenceContext(name="default")
     EntityManager entityManager;
@@ -61,6 +60,12 @@ public class BookDaoImpl implements BookDao {
     public void removeBook(long id) {
         // TODO Auto-generated method stub
 
+    }
+
+    @Override
+    public String updateBook(long id, String title) {
+        // TODO Auto-generated method stub
+        return null;
     }
 
 }

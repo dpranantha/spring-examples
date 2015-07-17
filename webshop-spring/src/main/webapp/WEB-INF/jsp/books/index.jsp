@@ -20,6 +20,7 @@
            <tr>
            	  <td>${book.id}</td>
               <td>${book.title}</td>
+              <td><a href="books/edit?id=${book.id}">Edit</a></td>
            </tr>
          </c:forEach>
       </table>
