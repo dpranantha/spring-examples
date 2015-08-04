@@ -20,7 +20,7 @@ public class MyMessageListener implements MessageListener {
                 msgText = msg.toString();
             }
 
-            System.out.println("Message Received: " + msgText);
+            System.out.println("Message Received from Sender: " + msgText);
 
             if (msgText.equalsIgnoreCase("quit")) {
                 synchronized (this) {
